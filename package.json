@@ -1,0 +1,50 @@
+{
+  "name": "cmdapp",
+  "version": "1.0.0",
+  "description": "A simple command line application that gets quote of the day from a public api",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TUgonna/cmdapp.git"
+  },
+  "author": "Ugonna Thelma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TUgonna/cmdapp/issues"
+  },
+  "homepage": "https://github.com/TUgonna/cmdapp#readme",
+  "devDependencies": {
+    "chalk": "^1.1.3",
+    "clear": "0.0.1",
+    "clui": "^0.3.1",
+    "commander": "^2.9.0",
+    "figlet": "^1.2.0",
+    "github": "^6.1.0",
+    "inquirer": "^1.2.3",
+    "lodash": "^4.17.2",
+    "minimist": "^1.2.0",
+    "preferences": "^0.2.1",
+    "simple-git": "^1.63.0",
+    "touch": "^1.0.0"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "cmdapp": "./bin/cmdapp"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "clear": "^0.0.1",
+    "clui": "^0.3.1",
+    "figlet": "^1.2.0",
+    "github": "^6.1.0",
+    "lodash": "^4.17.2",
+    "inquirer": "^1.2.3",
+    "minimist": "^1.2.0",
+    "preferences": "^0.2.1",
+    "simple-git": "^1.63.0",
+    "touch": "^1.0.0"
+  }
+}
